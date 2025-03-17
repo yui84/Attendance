@@ -1,0 +1,67 @@
+body {
+    background-color: #f3f0f0;
+}
+
+.approval {
+    padding: 5% 15%;
+}
+
+.title-approval {
+    padding-left: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    border-left: 8px solid #000;
+    margin-bottom: 40px;
+}
+
+.approval_table {
+    background: #fff;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.table-row {
+    height: 100px;
+}
+
+.table-title {
+    color: #878787;
+    text-align: left;
+    padding: 0 100px;
+}
+
+.table-data {
+    color: #000;
+    text-align: left;
+    padding: 0 80px;
+}
+
+tr {
+    border-bottom: 2px solid #f3f0f0;
+}
+
+.bottom {
+    text-align: right;
+    margin-top: 40px;
+}
+
+.approval_btn {
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+.approved_btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #787878;
+    border-radius: 5px;
+}

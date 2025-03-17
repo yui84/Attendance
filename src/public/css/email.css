@@ -1,0 +1,43 @@
+.mail-notice {
+    width: 50%;
+    margin: 20vw auto 0 auto;
+    padding: 0 40px;
+}
+
+.notice__header {
+    font-size:20px;
+    font-weight: bold;
+    text-align:center;
+}
+
+.mail-btn {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.notice__resend {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+    color: #ef1f1f;
+}
+
+.mail-link {
+    background-color: #ddd;
+    padding: 10px 15px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+.alert_resend {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.mail_resend--button {
+    font-size: 18px;
+    color: #0073cc;
+}

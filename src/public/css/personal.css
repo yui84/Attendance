@@ -1,0 +1,102 @@
+body {
+    background-color: #f3f0f0;
+}
+
+.personal {
+    padding: 5% 15%;
+}
+
+.title-personal {
+    padding-left: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    border-left: 8px solid #000;
+}
+
+.month {
+    background-color: #fff;
+    padding: 0 20px;
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+
+.calender-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prev {
+    font-size: 18px;
+    font-weight: bold;
+    color: #878787;
+}
+
+.next {
+    font-size: 18px;
+    font-weight: bold;
+    color: #878787;
+}
+
+.today {
+    display: flex;
+    align-items: center;
+}
+
+.calender-icon {
+    width: 30px;
+    height: fit-content;
+    margin-right: 10px;
+}
+
+.date {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.work {
+    margin: 20px 10px;
+}
+
+.work-table {
+    background: #fff;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #878787;
+}
+
+th {
+    padding: 10px 0;
+}
+
+td {
+    padding: 10px 0;
+}
+
+tr {
+    border-bottom: 2px solid #f3f0f0;
+}
+
+.link-detail {
+    align-items: center;
+    color: #000;
+}
+
+.export-form {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+
+.export__btn {
+    color: #fff;
+    background-color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 40px;
+    cursor: pointer;
+}

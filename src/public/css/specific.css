@@ -1,0 +1,101 @@
+body {
+    background-color: #f3f0f0;
+}
+
+.work_specific {
+    padding: 5% 15%;
+}
+
+.title-specific {
+    padding-left: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    border-left: 8px solid #000;
+    margin-bottom: 40px;
+}
+
+.table {
+    background: #fff;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.table-row {
+    height: 100px;
+}
+
+.table-title {
+    color: #878787;
+    text-align: left;
+    padding: 0 100px;
+}
+
+.table-data {
+    color: #000;
+    text-align: left;
+    padding: 0 80px;
+}
+
+input {
+    width: 20%;
+    height: 40px;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid #c6c6c6;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.input-start {
+    margin-right: 20px;
+}
+
+.input-end {
+    margin-left: 20px;
+}
+
+tr {
+    border-bottom: 2px solid #f3f0f0;
+}
+
+.note {
+    height: 80px;
+    padding: 5px 10px;
+    margin-top: 25px;
+    width: 50%;
+    border: 1px solid #c6c6c6;
+    border-radius: 5px;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.bottom {
+    text-align: right;
+}
+
+.correct {
+    margin-top: 40px;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+.pending-message {
+    color: #fb7d7d;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.error-message {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fb7d7d;
+}

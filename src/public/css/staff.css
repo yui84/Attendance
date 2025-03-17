@@ -1,0 +1,45 @@
+body {
+    background-color: #f3f0f0;
+}
+
+.staff {
+    padding: 5% 15%;
+}
+
+.title-staff {
+    padding-left: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    border-left: 8px solid #000;
+}
+
+.staff_list {
+    margin: 20px 10px;
+}
+
+.staff_table {
+    background: #fff;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #878787;
+}
+
+th {
+    padding: 10px 0;
+}
+
+td {
+    padding: 10px 0;
+}
+
+tr {
+    border-bottom: 2px solid #f3f0f0;
+}
+
+.link-detail {
+    align-items: center;
+    color: #000;
+}

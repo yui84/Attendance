@@ -35,18 +35,18 @@ php artisan db:seed
 ```
 
 ## メール認証
-mailtrapを使用。
-メールボックスのIntegrationsから 「laravel 7.x and 8.x」を選択し、
-.envファイルのMAIL_MAILERからMAIL_ENCRYPTIONまでの項目をコピー＆ペーストしてください。
+mailtrapを使用。  
+メールボックスのIntegrationsから 「laravel 7.x and 8.x」を選択し、  
+.envファイルのMAIL_MAILERからMAIL_ENCRYPTIONまでの項目をコピー＆ペーストしてください。  
 MAIL_FROM_ADDRESSは任意のメールアドレスを入力してください。
 
 ## テストアカウント
-**name:管理者ユーザー**
-**email:admin@test.com**
-**password:admin1234**
+**name:管理者ユーザー**  
+**email:admin@test.com**  
+**password:admin1234**　　
 
-**name:一般ユーザー**
-**email:generai1@gmail.com**
+**name:一般ユーザー**  
+**email:generai1@gmail.com**  
 **password:password**
 
 ## PHPUnitを利用したテスト
@@ -69,6 +69,7 @@ php artisan migrate:fresh --env=testing
 - MySQL8.0.26
 
 ## ER図
+<img width="453" alt="スクリーンショット 2025-03-20 15 29 26" src="https://github.com/user-attachments/assets/96aa110b-59fc-41d3-b905-4e5f9e6d4244" />
 
 
 ## URL

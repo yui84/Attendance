@@ -10,7 +10,7 @@ use App\Http\Requests\RegisterRequest;
 class RegisteredUserController
 {
     public function store(
-        RegisterRequest $request,
+        Request $request,
         CreateNewUser $creator
     ) {
         event(new Registered($user = $creator->create($request->all())));
